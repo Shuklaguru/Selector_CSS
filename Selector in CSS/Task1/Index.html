@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <style>
+      div a {
+        color: red;
+      }
+      nav > h2 {
+        background-color: aqua;
+        color: chartreuse;
+      }
+     div + p {
+        color: red;
+      }
+      a[href="#"]{
+        color:rgb(53, 18, 194);
+        text-decoration: none;
+      }
+      a[class="active"]{
+        text-decoration: underline;
+        color: yellow;
+      }
+      a[target="_self"]{
+        background-color: bisque;
+      }
+      p:last-child::after{
+        content: "...";
+      }
+      p:nth-child(2)::first-letter{
+        color: red;
+        font-size: 30px;
+      }
+      ul li{
+          list-style: none;
+      }
+      li a{
+        display: inline;
+     }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>TOI</h2>
+        <div>
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="#" target="_parent">Home</a></li>
+            <li><a href="#" class="active" target="_self">About</a></li>
+            <li><a href="#" target="_blank">Service</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+          </ul>
+        </div>
+
+        <p>The times if India</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Reprehenderit eaque at amet recusandae unde optio pariatur repudiandae
+          magnam odio perspiciatis tenetur fugit dolorum, possimus illum
+          consequuntur ab ea nam alias nostrum hic maiores harum architecto?
+          Officiis natus, eum quos velit deserunt provident possimus similique.
+          Eum ipsum assumenda nulla repellat quam, esse, in distinctio, sint
+          vitae exercitationem non quod dolore maxime quasi at deleniti. Maxime
+          rerum blanditiis facilis! Odit, nam debitis?
+        </p>
+
+        <p>read articales</p>
+      </nav>
+    </header>
+  </body>
+</html>
